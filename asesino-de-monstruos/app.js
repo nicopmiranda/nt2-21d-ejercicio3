@@ -62,8 +62,8 @@ new Vue({
         },
 
         registrarEvento(evento) {
-            return alert(evento);
         },
+        
         terminarPartida: function () {
             this.hayUnaPartidaEnJuego = false;
         },
